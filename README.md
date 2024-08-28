@@ -9,12 +9,13 @@ Para isso, usamos um conjunto de dados que foi rotulado manualmente e que conté
 
 ![alt text](image.png)
 
-Neste trabalho, comparamos diferentes algoritmos de aprendizado de máquina para analisar sentimentos em tweets. Entre os algoritmos que testamos, o Naive Bayes se destacou como o melhor, mostrando os melhores resultados em termos de acurácia, precisão, recall, F1 Score e erro.
+Neste trabalho, comparamos diferentes algoritmos de aprendizado de máquina para analisar sentimentos em tweets. Entre os algoritmos que testamos, o *Naive Bayes se destacou como o melhor*, mostrando os melhores resultados em termos de acurácia, precisão, recall, F1 Score e erro.
 
 Apesar da expectativa de que o algoritmo de comitê (que combina vários modelos) teria um desempenho superior, como sugerido por Kumar e Ayyappan (2017) e Aguiar et al. (2018), isso não aconteceu. O motivo principal foi o alto erro do KNN, que afetou negativamente o desempenho geral do comitê.
 
 Embora os resultados sejam bons no contexto deste estudo, é importante observar que a acurácia geral dos modelos ainda pode não ser suficiente para aplicações práticas em ambientes empresariais ou em outros projetos científicos, onde uma maior precisão é frequentemente necessária para obter resultados mais confiáveis.
 
+[Confira o código e os resultados.](https://github.com/crhisangela/Analise-de-sentimento/blob/main/main.ipynb)
 
 ### Referências
 AUGUSTO, P. Portuguese Tweets for Sentiment Analysis. Kaggle, 2024. Disponível em: https://www.kaggle.com/datasets/augustop/portuguese-tweets-for-sentiment-analysis?resource=download. Acesso em: 20 jul. 2024.
